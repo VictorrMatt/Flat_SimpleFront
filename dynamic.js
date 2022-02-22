@@ -1,4 +1,5 @@
 function myFunction() {
+    
     var first_number = Number(document.getElementById("fnumber").value)
     var last_number = Number(document.getElementById("snumber").value)
     

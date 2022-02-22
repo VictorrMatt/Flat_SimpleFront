@@ -3,5 +3,5 @@ function myFunction() {
     var last_number = Number(document.getElementById("snumber").value)
     
     var sum = first_number + last_number
-    document.getElementById("soma").innerHTML = sum
+    document.getElementById("sum").innerHTML = sum
 }

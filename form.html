@@ -16,14 +16,14 @@
         <label for="snumber"></label><br>
         <input type="text" id="snumber"><br>
         <br>
-        <!-- each button sends the same value to different functions -->
-        <button type="button" id="sum_button" onclick="sumFunction(Number(document.getElementById('fnumber').value), 
+        <!-- taking the values ​​and sending them to different functions -->
+        <button type="button" onclick="sumFunction(Number(document.getElementById('fnumber').value), 
         Number(document.getElementById('snumber').value))">+</button>
-        <button type="button" id="sub_button" onclick="subFunction(Number(document.getElementById('fnumber').value), 
+        <button type="button" onclick="subFunction(Number(document.getElementById('fnumber').value), 
         Number(document.getElementById('snumber').value))">-</button>
-        <button type="button" id="prod_button" onclick="prodFunction(Number(document.getElementById('fnumber').value), 
+        <button type="button" onclick="prodFunction(Number(document.getElementById('fnumber').value), 
         Number(document.getElementById('snumber').value))">x</button>
-        <button type="button" id="div_button" onclick="divFunction(Number(document.getElementById('fnumber').value), 
+        <button type="button" onclick="divFunction(Number(document.getElementById('fnumber').value), 
         Number(document.getElementById('snumber').value))">%</button>
     </div>
     <script type = "text/javascript" src="dynamic.js">

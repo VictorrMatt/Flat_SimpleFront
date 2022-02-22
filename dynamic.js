@@ -1,8 +1,3 @@
-// variables with the values
-var first_number = Number(document.getElementById("fnumber").value)
-var last_number = Number(document.getElementById("snumber").value)
-
-
 // each function does a different operation
 function sumFunction(fnumber, snumber) { 
     let sum = fnumber + snumber

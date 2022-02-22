@@ -1,3 +1,4 @@
+// simple function to sum the numbers
 function myFunction() {
     
     var first_number = Number(document.getElementById("fnumber").value)

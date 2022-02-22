@@ -25,6 +25,7 @@ input {
     border-radius: 20px;
     outline: none;
 }
+/* p with the result of the sum */
 p { 
     color: #122A73;
     background-color: #2351dc;
@@ -35,6 +36,7 @@ p {
     font-size: 30px;
     border-radius: 20px;
 }
+/* all button states */
 button {
     background-color: #122A73;
     width: 25%;
